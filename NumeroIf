@@ -1,0 +1,18 @@
+package numeroif;
+
+public class NumeroIf {
+
+    public static void main(String[] args) {
+
+        int numeroIf = 0;
+
+        if (numeroIf > 0) {
+            System.out.println("El numero es positivo " + numeroIf);
+        } else if(numeroIf < 0) {
+            System.out.println("El numero es negativo " + numeroIf);
+        }  else {
+            System.out.println("El numero es cero " + numeroIf);
+        }
+    }
+
+}
